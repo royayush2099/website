@@ -20,7 +20,15 @@
  <body>
     <header><img src="myphoto.jpg" class="myphoto" height="100px"width="100px" alt="presentation" >
 	    <div><h1 align="center" style="color:blueviolet;"><b>"Ayush Roy"</b></h1></div>
-<div align="left"><h1 style="color:aliceblue"><i>"To be or not to be, that is the question?" <sub><h3>By Benjamin Franklin</h3></sub></i></h1> <br> </div>
+<!--<div align="left" id="quote1"><h1 style="color:aliceblue"><i>"To be or not to be, that is the question?" <sub><h3>By Benjamin Franklin</h3></sub></i></h1> <br> </div>-->
+<button onclick="doSome()" style="width:30%; background-color:blueviolet"><i>Click me to get your quote of the day</i></button>
+
+<h1  id="test" style="color:aqua" >Welcome! to the site</h1>
+<script>
+    function doSome(){
+        document.getElementById("test").innerHTML="You can steer yourself any direction you choose";
+    }
+</script>
 </header>
     <main><div align="center"><h1><i>"Socials and Contact"</i></h1></div>
  <nav><div class="button" align="center"><a href="https://twitter.com/theayushroy2003"><button style="background-color: aquamarine;color:black;width:50%;border-radius:20px;"><img class="twitter"src="twitter.jpg" height="50px"alt=""><i>TWITTER</i></button></a></div><br>

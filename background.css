@@ -10,6 +10,10 @@ body{
   border-radius:40%;
   border-color: aqua;
 }
+button{
+  transition: all ease
+  0.5s;
+}
 
 .button {
   box-shadow: 0 0 5px cyan,
@@ -20,8 +24,12 @@ button:hover{
   0 0 25px cyan, 0 0 50px cyan, 
   0 0 100px cyan, 0 0 200px cyan;
 }
-.quote1{
-  border-radius:50px;
+#quote1{
+ height:300px;
+ width:1000px;
+ object-fit:cover;
 }
-
+#quote1:hover text{
+  scale: 1.2;
+}
 
